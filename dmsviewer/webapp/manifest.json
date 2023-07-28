@@ -41,17 +41,15 @@
       "id": "App"
     },
     "componentUsages": {
-      "documentTable": {
-          "name": "com.sap.ecm.reuse.documentTable",
+      "admin": {
+          "name": "com.sap.ecm.reuse.admin",
           "settings": {
-              "destinationPath": "/comsapecmreuse.comsapecmreusedocumentTable/api",
-              "repositoryId": "77345a30-a136-4518-9f12-3c67da93da47",
-              "objectId": "3bbe018000520e5358df9b46"           
+              "destinationPath": "/api"          
           }
       }
     },
     "resourceRoots": {
-        "com.sap.ecm.reuse.documentTable": "./../comsapecmreuse.comsapecmreusedocumentTable/"
+        "com.sap.ecm.reuse.documentTable": "./../comsapecmreuse.comsapecmreuseadmin/"
     },    
     "dependencies": {
       "minUI5Version": "1.116.0",

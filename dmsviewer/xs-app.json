@@ -9,7 +9,7 @@
       "destination": "ui5"
     },
     {
-      "source": "^/comsapecmreuse.comsapecmreusedocumentTable/api(.*)$",
+      "source": "^/api(.*)$",
       "target": "$1",
       "authenticationType": "xsuaa",
       "service": "com.sap.ecm.reuse",
