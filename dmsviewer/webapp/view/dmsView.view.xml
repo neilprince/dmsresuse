@@ -1,0 +1,11 @@
+<mvc:View controllerName="ns.dmsviewer.controller.dmsView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <core:ComponentContainer id="idDms" usage="documentTable" height="100%" async="false" manifest="true" componentCreated=".onComponentCreated"/>
+        </content>
+    </Page>
+</mvc:View>
