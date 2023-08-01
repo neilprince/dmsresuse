@@ -15,7 +15,7 @@ modules:
       forwardAuthToken: false
       name: ui5
       url: https://ui5.sap.com
-  - name: sapcommunity_dm
+  - name: dms_admin
     properties:
       destinations: '[{"name": "sdibackend", "url": "https://api-sdm-di.cfapps.sap.hana.ondemand.com", "forwardAuthToken": true}]'
   parameters:
@@ -83,7 +83,7 @@ resources:
     service: html5-apps-repo
     service-name: approuter-html5-srv
     service-plan: app-host
-- name: sapcommunity_dm
+- name: dms_admin
   type: org.cloudfoundry.managed-service
   parameters:
     service: sdm
